@@ -1,22 +1,3 @@
-Perfect — here is a **highly polished, advanced, eye-catching README.md** with:
-
-✅ Beautiful badge section
-✅ Professional open-source style
-✅ License
-✅ Technologies
-✅ Tags
-✅ Highlights section
-✅ Tables
-✅ Emojis
-✅ Beautiful layout used by top GitHub projects
-
-This will make your repo look **elite** and extremely professional to Kaggle judges.
-
----
-
-# ⭐ **FINAL PRO EDITION README.md (Copy–Paste Fully)**
-
-```markdown
 <div align="center">
 
 # 🚀 SmartSupport PRO+  
@@ -95,13 +76,11 @@ Dockerfile + Cloud Run guide.
 
 # 🧩 Architecture Diagram
 
-```
-
 Ticket API → Orchestrator
 ├── Triage Agent
 ├── Parallel:
-│     ├── Knowledge Agent
-│     └── PastTicket Agent
+│ ├── Knowledge Agent
+│ └── PastTicket Agent
 ├── Drafting Agent (RAG + LLM)
 ├── Quality Agent
 ├── Sentiment Agent
@@ -110,13 +89,29 @@ Ticket API → Orchestrator
 └── Analytics Agent
 Memory Bank ↔ Orchestrator
 
-````
+yaml
+Copy code
 
 ---
 
-# 📂 Project Structure
+Got you — your section looks **broken, misaligned, and messy** because:
 
-```plaintext
+* Code blocks weren’t closed properly
+* Emojis and headings got mixed
+* YAML mention isn’t needed
+* Spacing was lost
+
+I'll **enhance the entire section**, make it **clean, aesthetic, balanced, and beautifully formatted**, just like top GitHub projects.
+
+Here is the **fixed + enhanced version**, with perfect spacing, formatting, and readability.
+
+---
+
+# 🎯 **Enhanced, Clean, Professional Version (Copy–Paste Ready)**
+
+````markdown
+ 📂 Project Structure
+
 smartsupport_pro_plus/
 │
 ├── src/
@@ -128,42 +123,42 @@ smartsupport_pro_plus/
 │
 ├── notebook.ipynb            # Kaggle / Colab Notebook
 ├── requirements.txt          # Dependencies
-├── Dockerfile                # Deployment
-└── README.md                 # This file
+├── Dockerfile                # Deployment config
+└── README.md                 # Documentation
 ````
 
 ---
 
-# ⚙️ Installation
+## ⚙️ Installation
 
-### 1) Clone the Repository
+### **1. Clone the Repository**
 
 ```bash
 git clone https://github.com/akshit40/smartsupport-pro-plus.git
 cd smartsupport-pro-plus
 ```
 
-### 2) Create a Virtual Environment
+### **2. Create a Virtual Environment**
 
 ```bash
 python -m venv venv
 ```
 
-Activate:
+### **Activate the Environment**
 
-Windows:
+**Windows**
 
 ```bash
 venv\Scripts\activate
 ```
 
-Mac/Linux:
+**Mac/Linux**
 
 ```bash
 source venv/bin/activate
 ```
 
-### 3) Install Dependencies
+### **3. Install Dependencies**
 
 ```bash
 pip install -r requirements.txt
@@ -171,7 +166,7 @@ pip install -r requirements.txt
 
 ---
 
-# ▶️ Running the Demo (No API Keys Needed)
+## ▶️ Running the Demo (No API Keys Required)
 
 ```bash
 python src/agent_orchestrator.py --demo
@@ -180,47 +175,48 @@ python src/agent_orchestrator.py --demo
 This will:
 
 * Load sample tickets
-* Run every agent
-* Produce traces & draft replies
-* Show escalation decisions
-* Log analytics
+* Run the full multi-agent pipeline
+* Generate drafts & retrieve context
+* Perform quality checks
+* Detect sentiment
+* Produce analytics & trace logs
 
 ---
 
-# 🧪 Evaluation
+## 🧪 Evaluation Suite
 
 ```bash
 python src/eval/eval.py
 ```
 
-Outputs:
+Generates:
 
 * ROUGE scores
 * BERTScore
-* Escalation metrics
+* Escalation accuracy
 * Time-saving estimates
-* Trace JSON logs
-* Consistency metrics
+* JSON trace logs
+* Consistency & workflow metrics
 
 ---
 
-# 🤖 Optional: Running with LLMs
+## 🤖 Optional: Running with Real LLMs
 
-### Gemini
+### **Gemini**
 
 ```bash
 set LLM_PROVIDER=gemini
 set GOOGLE_API_KEY=your_key_here
 ```
 
-### OpenAI
+### **OpenAI**
 
 ```bash
 set LLM_PROVIDER=openai
 set OPENAI_API_KEY=your_key_here
 ```
 
-Run:
+Run with:
 
 ```bash
 python src/agent_orchestrator.py --demo
@@ -228,58 +224,66 @@ python src/agent_orchestrator.py --demo
 
 ---
 
-# 🚢 Deployment
+## 🚢 Deployment
 
-### Docker Build
+### **Docker Build**
 
 ```bash
 docker build -t smartsupport .
 ```
 
-### Docker Run
+### **Docker Run**
 
 ```bash
 docker run -p 8080:8080 smartsupport
 ```
 
-### Cloud Run Deployment
+### **Cloud Run Deployment**
 
-Instructions included inside the repo.
+Full deployment guide available inside the repo.
 
 ---
 
-# 📅 Roadmap
+## 📅 Roadmap
 
-* Vector database retrieval
+* Vector database retrieval (FAISS / Pinecone / Weaviate)
 * API server mode
-* Interactive UI dashboard
-* Human feedback training
-* Advanced SLA-aware escalation
-* Multi-turn support history
+* Real-time analytics dashboard
+* Human feedback training loop
+* SLA-aware prioritization
+* Multi-turn conversation support
 
 ---
 
-# 📝 License
+## 📝 License
 
-This project is licensed under the **MIT License** — feel free to use, modify, and distribute.
+Licensed under the **MIT License** — free to use, modify, and distribute.
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Akshit Kumar**
+
 GitHub: [https://github.com/akshit40](https://github.com/akshit40)
-Project: SmartSupport PRO+ (Kaggle × Google Agents Capstone)
+
+Project: *SmartSupport PRO+* (Kaggle × Google Agents Capstone)
 
 ---
 
-# ⭐ If you like this project, please star the repo!
+## ⭐ Support the Project
 
-It motivates future updates and improvements.
+If you find this helpful, please **star the repo** — it encourages future improvements!
 
-```
+⭐ **Star →** [https://github.com/akshit40/smartsupport-pro-plus](https://github.com/akshit40/smartsupport-pro-plus)
 
----
 
-```
+
+
+
+
+
+
+
+
 
